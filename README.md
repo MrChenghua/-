@@ -44,7 +44,11 @@ for i in courses_url:
 
 ## 3. 抓取课程文本
 
-上面已经获得了课程的url，进入链接找到课程文档所在的链接并抓取内容文本及可。同样使用web-developer就可以找到相应内容所在的位置，这里就不赘述了。唯一需要注意的是，发现如果不人为的加入sleep函数，程序在运行过程中会报错。可能是因为网站有反爬虫机制，在加入sleep(5)后程序运行正常。最终将所有实验楼线上课程都保存成了markdown格式的txt文本。[完整代码](https://github.com/MrChenghua/-/blob/master/shiyanlou_doc_markdown.py)已经上传。
+上面已经获得了课程的url，进入链接找到课程文档所在的链接并抓取内容文本及可。同样使用web-developer就可以找到相应内容所在的位置，这里就不赘述了。唯一需要注意的是，发现如果不人为的加入sleep函数，程序在运行过程中会报错。可能是因为网站有反爬虫机制，在加入sleep(5)后程序运行正常。最终将所有实验楼线上课程都保存成了markdown格式的txt文本。
+
+<img src = "https://user-images.githubusercontent.com/31018275/30391324-f37f447c-9886-11e7-8620-21c2c7f6b980.png" width="500">
+
+[完整代码](https://github.com/MrChenghua/-/blob/master/shiyanlou_doc_markdown.py)已经上传。
 
 
 
